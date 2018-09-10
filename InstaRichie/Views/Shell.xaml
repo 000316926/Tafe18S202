@@ -99,12 +99,18 @@
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
 
+<<<<<<< HEAD
             <!--  Appointments button  -->
             <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:AppointmentListPage" 
+=======
+            <!--  Personal Info button  -->
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:PersonalInfoPage" 
+>>>>>>> remotes/origin/peronal_info_1.1
                                           AutomationProperties.Name="Jerry"
                                           >
                 <StackPanel Orientation="Horizontal">
                     <SymbolIcon Width="48" Height="48"
+<<<<<<< HEAD
                 		Symbol="CalendarDay" />
                     <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
                                Text="Appointments" />
@@ -119,6 +125,11 @@
                 		Symbol="Add" />
                     <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
                                Text="Add Appointment" />
+=======
+                		Symbol="ContactInfo" />
+                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
+                               Text="Personal Info" />
+>>>>>>> remotes/origin/peronal_info_1.1
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
             
